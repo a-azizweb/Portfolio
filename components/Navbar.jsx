@@ -18,7 +18,7 @@ const Navbar = () => {
         <Image
           src="/../public/assets/navLogo.png"
           alt="/"
-          width="125"
+          width="80"
           height="50"
         />
 
@@ -73,7 +73,7 @@ const Navbar = () => {
                 src="/../public/assets/navLogo.png"
                 alt="/"
                 width="87"
-                height="35"
+                height="65"
               />
               <div
                 onClick={handleNav}
@@ -83,7 +83,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="border-b border-gray-300 my-4">
+            <div className="border-b border-gray-300 my-2">
               <p className="w-[85%] md:w-[90%] py-4">
                 Lets build something legendary together
               </p>
